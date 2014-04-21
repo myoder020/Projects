@@ -116,27 +116,41 @@ def testMessage():
 device = MonkeyRunner.waitForConnection()
 
 #creating and deleting test contact
+print "Creating first test contact"
 createContact("test", "3333333333", "test@email.com", 0)
+print "Deleting contact"
 delContact(0)
+print "Creating second test contact"
 createContact("test1", "2222222222", "test1@email.com", 0)
+print "Deleting contact"
 delContact(0)
+print "Creating third test contact"
 createContact("test2", "4444444444", "test2@email.com", 0)
+print "Creating fourth contact"
 createContact("test3", "5555555555", "test3@email.com", 1)
 
 #add contact to favorites
+print "Adding contact to favorites"
 addFav()
 
 #Going to favorites tab
+print "Navigating to favorites tab"
 device.touch(48, 75, MonkeyDevice.DOWN_AND_UP)
 time.sleep(4)
 
 #Clicking on contact in favorites tab
+print "Clicking on contact in favorites tab"
 device.touch(113, 218, MonkeyDevice.DOWN_AND_UP)
 time.sleep(4)
 
+print "Testing opening the messaging app from within a contact"
 testMessage()
+
+print "Deleting all other contacts"
 delContact(1)
 delContact(1)
+
+print "Going back to home screen"
 device.press('KEYCODE_HOME', MonkeyDevice.DOWN_AND_UP)
 time.sleep(5)
 

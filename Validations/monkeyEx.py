@@ -145,7 +145,6 @@ snapshot_screen(Actual_device)
 device.drag((200, 80),(15,80),5,10)
 snapshot_screen(Actual_device)
 
-
 ###############################################################################
 
 removing_application_from_device(application_name);
