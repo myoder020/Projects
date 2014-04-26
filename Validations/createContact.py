@@ -1,6 +1,8 @@
 #importing proper libraries
 import time
 import sys
+import os
+import subprocess
 
 #get modules needed to run monkeyrunner
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice
@@ -114,6 +116,11 @@ def testMessage():
 
 #Connect to emulator
 device = MonkeyRunner.waitForConnection()
+#adbLoc = "C:\Program Files (x86)\Android\\android-sdk\platform-tools\\"
+#print  adbLoc
+#assert os.path.isdir(adbLoc)
+#os.chdir(adbLoc)
+#subprocess.Popen(["adb.exe", "logcat", ">", "log.log"], shell=True)
 
 #creating and deleting test contact
 print "Creating first test contact"
@@ -153,6 +160,10 @@ delContact(1)
 print "Going back to home screen"
 device.press('KEYCODE_HOME', MonkeyDevice.DOWN_AND_UP)
 time.sleep(5)
+
+#f = open('myFile.txt', 'w')
+#f.write(testLog)
+#f.close
 
 print "Test done"
 
