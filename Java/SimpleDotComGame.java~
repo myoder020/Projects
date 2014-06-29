@@ -1,0 +1,32 @@
+public class SimpleDotComGame {
+
+    public static void main(String[] args) {
+
+        int numOfGuesses = 0;
+        SimpleDotCom dot = new SimpleDotCom();
+        int randomNum = (int) (Math.random() * 5);
+        int[] loc = {randomNum, randomNum + 1, randomNum + 2};
+        //ask user to enter a guess
+        //declare an int using a random generator
+
+        dot.setLocationCells(loc);
+        boolean isAlive = true;
+
+        while(isAlive == true) {
+          //ask user for guess
+          String guess = helper.getUserInput("enter a number");
+          //check user guess
+          //invoke checkYourself()
+          String result = dot.checkYourself(guess);
+          numOfGuesses++;
+          //check for dotcom death
+          //if result is kill
+          //set isAlive to false
+          //print the number of guesses 
+          if (result.equals("kill")) {
+              isAlive = false;
+              System.out.println("You took " + numOfGuesses + " guesses");
+          }
+        } //end of while
+    } //end of main
+} 

@@ -1,0 +1,1 @@
+this is text that was written to a file called foo.txt

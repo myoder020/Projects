@@ -1,0 +1,18 @@
+public class myClassTester {
+
+    public static void main(String[] args) {
+        int temp = Integer.parseInt(args[0]);
+        myClass c = new myClass();
+        c.doStuff(temp);
+
+        myClass d = new myClass();
+        d.doStuff(8);
+
+        classExtend e = new classExtend();
+        e.doMoreStuff();
+
+
+    }
+}
+
+
