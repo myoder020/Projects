@@ -9,7 +9,7 @@ public class myClassTester {
         d.doStuff(8);
 
         classExtend e = new classExtend();
-        e.doMoreStuff();
+        e.doMoreStuff(temp);
 
 
     }

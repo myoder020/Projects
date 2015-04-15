@@ -26,10 +26,13 @@ public class GamePanel extends JLayeredPane{
 		    TileIcon icon = new TileIcon(getClass().getResource("../../images/bg.gif").toURI().toURL());
 			bg = new JLabel(icon);
 			bg.setSize(this.getSize());
-		} catch (IOException | URISyntaxException e) {
+		} catch (URISyntaxException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 		this.add(bg, new Integer(0));
 		
 	}

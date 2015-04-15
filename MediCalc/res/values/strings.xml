@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediCalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="title_activity_gender">GenderActivity</string>
+    <string name="title_activity_male__weight">Male_WeightActivity</string>
+    <string name="title_activity_female__weight">Female_WeightActivity</string>
+    <string name="submit">Submit</string>
+    <string name="choosegender">Choose Gender</string>
+    <string name="patientgender">Choose Patient Gender</string>
+    <string name="mCalculate">Calculate</string>
+    <string name="fcalculate">Calculate</string>
+    <string name="fCalculate">Calculate</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="hint">Enter Patient Weight</string>
+    <string name="chooseGender">Choose Patient Gender</string>
+    <string name="calcButton">calcButton</string>
+    <string name="bg">background</string>
+    <string name="title_activity_weight">WeightActivity</string>
+
+</resources>

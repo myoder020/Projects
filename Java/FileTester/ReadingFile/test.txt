@@ -1,0 +1,3 @@
+this is a file that i will read from.
+this line is about my life as a failed programmer and how i want to teach myself.
+hopefully someday i can live up to my potential and become somebody.

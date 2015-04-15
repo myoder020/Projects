@@ -4,8 +4,8 @@ public class classExtend extends myClass {
         System.out.println("now in the subclass classExtend");
     }
 
-    public void doMoreStuff() {
+    public void doMoreStuff(int temp) {
         System.out.println("in doMoreStuff");
-        super.doStuff(8);
+        doStuff(temp);
     }
 }

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".Male_WeightActivity" >
+
+    <TextView
+        android:id="@+id/mWeight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/weightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/msubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightValue"
+        android:layout_alignRight="@+id/weightValue"
+        android:layout_below="@+id/weightValue"
+        android:text="@string/mCalculate" />
+
+    <ImageButton
+        android:id="@+id/calcButton"
+        android:contentDescription="@string/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mWeight"
+        android:layout_alignRight="@+id/mWeight"
+        android:src="@drawable/calc_icon" />
+
+</RelativeLayout>

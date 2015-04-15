@@ -50,10 +50,13 @@ public abstract class Weapon {
 	public URL getImageLocation() {
 		try {
 			return Weapon.class.getResource(image).toURI().toURL();
-		} catch (MalformedURLException | URISyntaxException e) {
+		} catch (URISyntaxException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} catch (MalformedURLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 		return null;
 	}
 	

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dreamcloud.medicalc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name="com.dreamcloud.medicalc.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dreamcloud.medicalc.GenderActivity"
+            android:label="@string/title_activity_gender" >
+        </activity>
+        <activity
+            android:name="com.dreamcloud.medicalc.Male_WeightActivity"
+            android:label="@string/title_activity_male__weight" >
+        </activity>
+        <activity
+            android:name="com.dreamcloud.medicalc.Female_WeightActivity"
+            android:label="@string/title_activity_female__weight" >
+        </activity>
+        <activity
+            android:name="com.dreamcloud.medicalc.ResultsActivity"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name="com.dreamcloud.medicalc.WeightActivity"
+            android:label="@string/title_activity_weight" >
+        </activity>
+    </application>
+
+</manifest>

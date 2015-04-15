@@ -40,10 +40,12 @@ public class Sprite extends ImageIcon{
 	private static URL getImageURL(String imgPath){
 		try {
 			return Sprite.class.getResource(imgPath).toURI().toURL();
-		} catch (MalformedURLException | URISyntaxException e) {
+		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
 		return null;
 	}
 	

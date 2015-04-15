@@ -22,9 +22,12 @@ public class EnemyView extends JLabel {
 		BufferedImage enemyImage = null;
 		try {
 			enemyImage = ImageIO.read(new File(getClass().getResource(enemy.getImageFile()).toURI()));
-		 } catch (IOException | URISyntaxException e) {
+		 } catch (URISyntaxException e) {
 			e.printStackTrace();
-		 }
+		 } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 		this.enemyImage = enemyImage;
 		this.enemy = enemy;
 	}
@@ -34,9 +37,12 @@ public class EnemyView extends JLabel {
 		// Use image corresponding to new enemy
 		try {
 			enemyImage = ImageIO.read(new File(getClass().getResource(enemy.getImageFile()).toURI()));
-		 } catch (IOException | URISyntaxException e) {
+		 } catch (URISyntaxException e) {
 			e.printStackTrace();
-		 }
+		 } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 	}
 	
 	@Override
