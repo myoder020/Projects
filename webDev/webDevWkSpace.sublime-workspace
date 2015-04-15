@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"HIST_SER",
+				"HIST_SERV_ARRGMT"
+			],
+			[
+				"HIST_RECOV_AC",
+				"HIST_RECOV_ACCT_TRANSACT"
+			],
+			[
+				"HIST_SU",
+				"HIST_HEAR_SUMM"
+			],
+			[
+				"HIST",
+				"HIST_CUST_APPT"
+			],
+			[
+				"HIST_",
+				"HIST_CUST_APPT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Lesson_2/address.html",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Lesson_2/index.html",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 703.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/matthew.r.yoder/Desktop/webDev",
+		"/C/Users/matthew.r.yoder/Desktop/webDev/Lesson_2",
+		"/C/Users/matthew.r.yoder/Desktop/webDev/Lesson_2/images"
+	],
+	"file_history":
+	[
+		"/C/Users/matthew.r.yoder/Desktop/Lesson_2/index.html",
+		"/C/Users/matthew.r.yoder/Desktop/Lesson_2/image.html",
+		"/C/Users/matthew.r.yoder/Desktop/Lesson_2/vegetables.html",
+		"/C/Users/matthew.r.yoder/Desktop/Lesson_2/address.html",
+		"/C/Users/matthew.r.yoder/Desktop/Lesson_2/images/readme.txt",
+		"/C/Users/matthew.r.yoder/Desktop/INSERT PARAMETER TEMPLATE.SQL",
+		"/C/Users/matthew.r.yoder/Desktop/m_StgToHist_ACCT.XML",
+		"/C/Users/matthew.r.yoder/Desktop/ABMS 01.sql",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/MCI - Master Client Index",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/flat files/test_Pers_Info_20.txt",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/flat files/Pers_Info_Next20.txt",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/sessionList",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/SQL/hear_summ_queries.sql",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/SQL/CASES.SQL",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Degree Parameters.TXT",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/HIST_TABLES_SNAPTNAF.sql",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/DEGREE Type Codes.TXT",
+		"/C/Web/logs/localhost_access_log.2015-03-30.txt",
+		"/C/myWorkspace/Servers/Tomcat v7.0 Server at localhost-config/catalina.properties",
+		"/C/myWorkspace/Servers/Tomcat v7.0 Server at localhost-config/web.xml",
+		"/C/Web/conf/web.xml",
+		"/C/Web/conf/context.xml",
+		"/C/Web/conf/server.xml",
+		"/C/Web/conf/logging.properties",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/servers/AdminServer/logs/domain20.log",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/servers/AdminServer/security/boot.properties",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/indirect_file_list.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/rpt_file_key.sh",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp05707/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FILE_CNT.txt",
+		"/C/Users/matthew.r.yoder/Desktop/addr_jnr.txt",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/create_db.log",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/security/SQLAuthenticator.sql",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/database.properties",
+		"/C/Oracle/Middleware1/jrockit_160_29_D1.2.0-10/jre/lib/security/cacerts",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/derbyShutdown.log",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/derby.log",
+		"/C/Oracle/Middleware1/wlserver_10.3/common/bin/wlsifconfig.sh",
+		"/C/Oracle/Middleware1/wlserver_10.3/common/derby/KEYS",
+		"/C/Oracle/Middleware1/wlserver_10.3/server/lib/service-config.properties",
+		"/C/Oracle/Middleware1/registry.xml",
+		"/C/Oracle/Middleware1/domain-registry.xml",
+		"/C/Oracle/Middleware1/user_projects/domains/domain20/create_db.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/file_remove.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/file_validation.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/file_list_creation.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/RicardoTables",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/MattTables",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp06483/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/GS03ARMD_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp02851/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/entire_loaded_file_list.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp08380/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/GS02_FILE_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp24469/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FILE_LIST_GS02_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp38579/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/final_file_list.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp17959/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ings02_segment_number.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp17890/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ings03_segment_number.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp14700/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FTP_SEGMENT_LIST.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp07773/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/CRIS_E_FILES.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp03084/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/GS02COOP.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp03764/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/GS02COOP.lst",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp02313/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/columns_missing.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp42475/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/indirect_file_list.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp22228/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/ftp_missing_GS03_7.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp21740/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FILE_LIST_GS02_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp14327/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/GS01APPL.txt",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/rpt_file_segment_count.sh",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Sequence of Scripts&Workflow.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp28841/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/CONVParam/ABMS_param.prm",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp29699/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/CRIS_E_FILES.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp31275/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FTP_SEGMENT_LIST.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp21004/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/trailer_missing.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp11724/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/ftp_missing_ARCHIVE_GS02_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp06682/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/truncate_stg_tables.sql",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp05757/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/FILE_LIST_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp05834/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/GS02_FILE_1.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp13559/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/FTP_SEGMENT_LIST.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp50216/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ings02_segment_number.txt",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp04774/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/Param/landing_param.prm",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp57653/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/SrcFiles/Param/env.param",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp04895/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/CONVParam/ABMS_param.prm",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp57720/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ohio_env_up.param",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp57370/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ohio_qs_env.param",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp56078/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Conversion/Scripts/Param/ohio_env.param",
+		"/C/Users/matthew.r.yoder/AppData/Local/Temp/scp49059/data01/app/oracle/product/Middleware/Informatica/9.5.1/server/infa_shared/Scripts/Temp/ings03_segment_number.txt",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Mapping Data/Copy of Source Target Data Mapping - ABD (7)/xl/tables/table1.xml",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Scripts/ch_param.sh",
+		"/C/Users/matthew.r.yoder/Desktop/hosts",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/phpMyAdmin/libraries/config.default.php",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/Copybook_View.txt",
+		"/C/Users/matthew.r.yoder/Desktop/ListOfFiles.txt",
+		"/C/Users/matthew.r.yoder/Desktop/Ohio/m_LdgToStg_SCHL_ATTEND.XML",
+		"/C/xampp/phpMyAdmin/libraries/config.values.php",
+		"/C/xampp/phpMyAdmin/user_password.php",
+		"/C/xampp/phpMyAdmin/webapp.php",
+		"/C/xampp/phpMyAdmin/show_config_errors.php",
+		"/C/xampp/phpMyAdmin/server_sql.php",
+		"/C/xampp/phpMyAdmin/setup/config.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\Users\\matthew.r.yoder\\Desktop\\webDev\\Lesson_2",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t",
+			"(--.*)=",
+			"private.*String ",
+			"+",
+			"\"",
+			"constant",
+			"(--.*) =",
+			"private.*String ",
+			"\"",
+			"()",
+			"+",
+			"()",
+			"+",
+			"()",
+			"+",
+			"\"",
+			"()",
+			"+",
+			"  ",
+			"\"",
+			"()",
+			"+",
+			"\\t",
+			" ",
+			"\\t",
+			" ",
+			"\\t",
+			"tEXT\\w.*\\w",
+			"(\\w+)",
+			"(.*)",
+			",",
+			" tablespace \"conv_data1\" ;",
+			";",
+			"(LDG.*) ",
+			"(IDX.*SEQ) ",
+			"(IDX.*SEQ )",
+			"IDX(.*SEQ )",
+			"INDEX(.*SEQ) ",
+			"INDEX.* ",
+			"SRC_IE",
+			"LDG_GS",
+			"WEBLOGIC",
+			"s_m_StgToHist_",
+			"(.*)\\.",
+			"Session (.*) updated.*",
+			"FTP_SEGMENT_LIST",
+			"GS0*_.*.txt",
+			"CRIS_E_FILES",
+			"SOURCE",
+			"ABMS\".\"",
+			"CONSTRAINT.\\\"(.*)\\\"(.*)\\\"",
+			"CONSTRAINT.(\\\".*\\\")\\(\"ID\"\\)",
+			"CONSTRAINT (\\\".*\\\")\\(\"ID\"\\)",
+			"CONSTRAINT(.*)\\(\"ID\"\\)",
+			"CONSTRAINT \"SERV_ARRG_CUST_ACT_PK\" PRIMARY KEY (\"ID\")",
+			"CONSTRAINT(.*)\\(\"ID\"\\)",
+			" \"SOURCE\"(.*)",
+			" \"SOURCE\"",
+			" ",
+			"\\^\\^",
+			"^^",
+			"\\^\\^",
+			"^^",
+			"CONSTRAINT(.*)\\(\"ID\"\\)",
+			"CONSTRAINT.*PRIMARY KEY (\"ID\")",
+			"CONSTRAINT \"ACCT_PK\" PRIMARY KEY (\"ID\")",
+			"CONSTRAINT.*PRIMARY KEY (\"ID\")",
+			"CONSTRAINT \"ACCT_PK\" PRIMARY KEY (\"ID\")",
+			"PRIMARY KEY (\"ID\")",
+			"(\"",
+			"HIST_HIST",
+			"CONV_STG\".\"",
+			"ABMS\".\"",
+			"HH",
+			"ABMS",
+			"\"\\.\"",
+			"\".\"",
+			"ABMS",
+			"ABMS_DATA1",
+			"wkpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"$1",
+			"--",
+			"",
+			"$1",
+			"--",
+			"",
+			"(+)",
+			"",
+			"(+)",
+			"",
+			"(+)",
+			"",
+			"(+)",
+			"",
+			"(+)",
+			"",
+			"$1",
+			"LDG_$1",
+			"",
+			";\nTABLESPACE \"CONV_DATA1\";",
+			"\"CONV_LANDING\".\"$1\" ",
+			"\"CONV_LANDING\".\"$1\"",
+			"INDEX \"CONV_LANDING\".\"$1\"",
+			"LDG_GS",
+			"SRC_IE",
+			"weblogic",
+			"",
+			"$1",
+			"CONV_STG\".\"HIST_",
+			"CONV_STG\".\"HIST",
+			"CONSTRAINT \"HIST_$1\"$2\"",
+			"CONSTRAINT \"HIST_$1\" $2",
+			"CONSTRAINT \"HIST_$1\" ",
+			"HIST_$1",
+			"\"SOURCE\" VARCHAR2(200 BYTE),\n  CONSTRAINT$1\\(\"ID\"\\)  ",
+			"\"SOURCE\" VARCHAR2(200 BYTE),\nCONSTRAINT$1\\(\"ID\"\\)  ",
+			"\"SOURCE\"$1\n  ",
+			"\"SOURCE\"\n  ",
+			"\n  ",
+			"\n",
+			"^^",
+			"\"SOURCE\" VARCHAR2(200 BYTE), ^^CONSTRAINT$1\\(\"ID\"\\)",
+			"\"SOURCE\" VARCHAR2(200 BYTE), ^MCONSTRAINT$1\\(\"ID\"\\)",
+			"HIST",
+			"HIST_",
+			"CONV_STG\".\"HIST_",
+			"CONV_STG",
+			"\"\\.\"HIST_",
+			"\".\"HIST_",
+			"CONV_STG",
+			"CONV_DATA1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Lesson_2/address.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Lesson_2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webDev.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
