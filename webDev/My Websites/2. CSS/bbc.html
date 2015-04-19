@@ -82,19 +82,28 @@
 			padding: 5px 12px;
 			font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
 		}
-		#otherLinks {
-			height: 40px;
-			background-color: #CC0101;
-			color: #fff;
-			font-size: 18px;
-			border-top: 1px solid rgba(255,255,255,0.4);
+
+		#reset {
+			position: absolute;
+            left: 0;
+            right: 0;
+            background-color: #CC0101;
+            height: 40px;
+            border-top: 1px solid rgba(255,255,255,0.4);
 		}
+
+		#otherLinks {
+			margin: 0 auto;
+			width: 1050px;			
+			color: #fff;
+			font-size: 18px;			
+		}
+		
 		#otherLinks ul{
 			margin: 0;
 			padding: 0;
 		}
 		
-
 		#otherLinks li {
 			margin-top: 8px;
 			list-style: none;
@@ -108,7 +117,6 @@
 		#more {
 			border: none;
 		}
-
 		</style>
 	</head>
 	
@@ -145,20 +153,22 @@
 				<div class="fixedwidth">
 					<p>NEWS</p>
 					<div class="break"></div>
-					<div id="otherLinks">
-						<ul>
-							<li>Home</li>
-							<li>Video</li>
-							<li>World</li>
-							<li>US &amp; Canada</li>
-							<li>UK</li>
-							<li>Business</li>
-							<li>Tech</li>
-							<li>Science</li>
-							<li>Magazine</li>
-							<li>Entertainment &amp; Arts</li>
-							<li id="more">More</li>
-						</ul>
+					<div id="reset">
+						<div id="otherLinks">
+							<ul>
+								<li>Home</li>
+								<li>Video</li>
+								<li>World</li>
+								<li>US &amp; Canada</li>
+								<li>UK</li>
+								<li>Business</li>
+								<li>Tech</li>
+								<li>Science</li>
+								<li>Magazine</li>
+								<li>Entertainment &amp; Arts</li>
+								<li id="more">More</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
