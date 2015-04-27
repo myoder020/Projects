@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Learning JQuery!</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.js"></script>
+		
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+		<script src="http://static.jsbin.com/js/prod/runner-3.25.23.min.js" type="text/javascript" charset="utf-8" async defer></script>
+		
+		<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<body id="body">
+		
+		<div id="header">
+			<p><span id="title">CodePlayer</span></p>
+			<button id="run">Run</button>
+			
+			<div id="panel">
+				<input type="checkbox" id="htmlC" name="" value=""><label for="htmlC" class="toggle">HTML</label>
+				<input type="checkbox" id="cssC" name="" value=""><label for="cssC" class="toggle">CSS</label>
+				<input type="checkbox" id="jsC" name="" value=""><label for="jsC"  class="toggle">JS</label>
+				<input type="checkbox" id="result" name="" value=""><label for="result"  class="toggle">Result</label>
+				
+			</div>
+			<!-- end panel -->
+			
+		</div>
+		
+		<!-- end header -->
+		
+		<div id="content">
+			<div id="htmlDiv" class="container">
+				<p><span class="codeTitle">HTML</span></p>
+				<textarea id="htmlT" name=""></textarea>
+			</div>
+
+			<div id="cssDiv" class="container">
+				<p><span class="codeTitle">CSS</span></p>
+				<textarea id="cssT" name=""></textarea>
+			</div>
+			
+			<div id="jsDiv" class="container">
+				<p><span class="codeTitle">JS</span></p>
+				<textarea id="jsT" name=""></textarea>
+			</div>
+			
+			<div id="resultDiv" class="container">
+				<p><span class="codeTitle">Result</span></p>
+				<iframe id="frame" src=""></iframe>
+			</div>
+			
+		</div>
+		<!-- end content -->
+		<script>
+		
+		var bodyHeight = $("#body").height();
+		var headerHeight = $("#header").height();
+		var contentHeight = bodyHeight - headerHeight;
+		
+			$("#content").height(contentHeight + "px");
+		
+			var codeEnabled = [0,0,0,0];
+			$(function() {
+				$( "#panel" ).buttonset();
+			});
+
+			$(".toggle").click(function() {
+				// $(this).toggleClass("container");
+				var activeDiv = $(this).text().toLowerCase();		
+				$("#"+activeDiv+"Div").toggle();
+				var checkActive = $(".container").filter(function() {
+					return($(this).css("display")!="none");
+				}).length;
+				var width = 100 / checkActive + "%";
+				$(".container").css("width", width);
+			});
+				
+			$("#run").click(function() {
+				var doc = $("#frame"),
+					contents = doc.contents(),
+					body = contents.find("body"),
+					head = contents.find("head");
+					
+
+				var html = $("#htmlT").val();
+				var css = $("#cssT").val();
+				var js = $("#jsT").val();
+				var $this = $("textarea");
+				head.html("<style>" + css + "</style>");
+				body.html(html);
+				body.append("<script>\n try {\n" + js + "\n } catch (error) { throw error; }\n<\/script>");
+		
+			});
+		
+		
+		
+		</script>
+		
+		
+	</body>
+</html>

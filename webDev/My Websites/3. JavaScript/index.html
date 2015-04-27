@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Learning JavsScript</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+
+		<p id="arrayString">What is the weather?</p>
+		
+		
+		<script type="text/javascript">
+			var myArray = ["pizza","chocolate", "crisps"]
+			var arrayString = "";
+			for(var i = 0; i < myArray.length; i++){
+				arrayString += myArray[i] + " ";
+			}
+			
+			document.getElementById("arrayString").innerHTML = arrayString;
+
+
+		</script>
+	</body>
+</html>

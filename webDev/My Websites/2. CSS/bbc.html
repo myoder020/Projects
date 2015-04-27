@@ -1,316 +1,110 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Matt's BBC</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="topbar">
+				<div class="fixedwidth">
+					<div id="logodiv">
+						<img id="bbclogo" src="images/bbclogo.png" alt="">
+					</div>
+					<div id="signInDiv">
+						<img id="signIn" src="images/signInSymbol.png" alt="">
+					</div>
+					<div id="nav">
+						<ul>
+							<li>News</li>
+							<li>Sport</li>
+							<li>Weather</li>
+							<li>Shop</li>
+							<li>Earth</li>
+							<li>Travel</li>
+							<li>More</li>
+						</ul>
+					</div>
+					<div id="searchDiv">
+						<input type="text" name="" value="" placeholder="Search">
+					</div>
+				</div>
+			</div>
+			<div class="break"></div>
+			<!-- end topbar -->
+			<div id="newsDiv">
+				<div class="fixedwidth">
+					<p>NEWS</p>
+					<div id="reset">
+						<div id="otherLinks">
+							<ul>
+								<li>Home</li>
+								<li>Video</li>
+								<li>World</li>
+								<li>US &amp; Canada</li>
+								<li>UK</li>
+								<li>Business</li>
+								<li>Tech</li>
+								<li>Science</li>
+								<li>Magazine</li>
+								<li>Entertainment &amp; Arts</li>
+								<li style="border-right: none;">More</li>
+							</ul>
+						</div>
+						<!-- end otherLinks -->
+					</div>
+					<!--end reset -->
+				</div>
+				<!-- end fixedwidth -->
+			</div>
+			<!-- end newsDiv -->
+			<div class="break"></div>
+			<div id="content">
+				<div class="fixedwidth">
+					<div id="mainArticle">
+						<h1>Migrant deaths renew pressure on EU</h1>
+						<img class="headlineimg" src="images/headlineimg.jpg" alt="Guys on a boat">
+						<div class="newsitem">
+							<p>Italy's PM leads calls for more EU action on migrants after the latest boat capsize in the Mediterranean leaves hundreds feared dead.</p>
+							<img id="clock" src="images/clock.png" alt="">
+							<div id="movedown">
+								<p><span class="date">2 hours ago</span></p>
+								<p><span id="europe">Europe</span></p>
+							</div>
+							<!-- end movedown -->
+							<div class="break"></div>
+							<div id="headlinelinks">
+								<ul>
+									<li><a href="http://www.bbc.com/news/uk-32382962">Cameron: Deaths a 'dark day'</a></li>
+									<li><a href="http://www.bbc.com/news/world-middle-east-32386370">Why is Libya the focus?</a></li>
+									<li><a class="video" href="http://www.bbc.com/news/world-32384519">Med migration in numbers</a></li>
+									<li><a href="http://www.bbc.com/news/world-europe-24583286">Why EU is struggling</a></li>
+								</ul>
+							</div>
+							<!-- end headlinelinks -->
+						</div>
+						<!-- end newsitem -->
+					</div>
+					<!-- end mainArticle -->
+					<div id="watchlist">
+						<h2>Watch</h2>
 
-<head>
-    <title>Matt's BBC</title>
-    <style type="text/css" media="screen">
-    body {
-        margin: 0;
-        font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
-    }
-    
-    #topbar {
-        background-color: #fff;
-        height: 30px;
-        width: 100%;
-        color: black;
-    }
-    
-    .fixedwidth {
-        width: 1050px;
-        margin: 0 auto;
-    }
-    
-    #logodiv {
-        padding-top: 7px;
-        float: left;
-        border-right: 1px solid #EAEAEA;
-        padding-right: 10px;
-        padding-left: 10px;
-        margin-bottom: 0;
-    }
-    
-    #signInDiv {
-        padding: 10px 10px 0 10px;
-        float: left;
-        border-right: 1px solid #EAEAEA;
-        height: 30px;
-    }
-    
-    #signInDiv img {
-        position: relative;
-    }
-    
-    #nav {
-        float: left;
-    }
-    
-    #nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #nav li {
-        list-style: none;
-        font-weight: bold;
-        font-size: .8em;
-        border-right: 1px solid #EAEAEA;
-        height: 100%;
-        padding: 12px 20px 13px 20px;
-        float: left;
-    }
-    
-    #searchDiv {
-        float: left;
-        padding: 8px;
-    }
-    
-    #searchDiv input {
-        height: 22px;
-        border: none;
-        background-color: #E4E4E4;
-        font-weight: bold;
-        padding-left: 5px;
-        background-image: url("images/magnify.png");
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 25px;
-    }
-    
-    ::-webkit-input-placeholder {
-        color: black;
-    }
-    
-    .break {
-        clear: both;
-    }
-    
-    #newsDiv {
-        height: 100%;
-        background-color: #CC0101;
-    }
-    
-    #newsDiv p {
-        font-size: 40px;
-        margin: 0;
-        color: #fff;
-        padding: 5px 12px;
-        font-family: "Gill Sans", "Gill Sans MT", Arial, sans-serif;
-    }
-    
-    #reset {
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: #CC0101;
-        height: 40px;
-        border-top: 1px solid rgba(255, 255, 255, 0.4);
-    }
-    
-    #otherLinks {
-        margin: 0 auto;
-        width: 1050px;
-        color: #fff;
-        font-size: 18px;
-    }
-    
-    #otherLinks ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #otherLinks li {
-        margin-top: 8px;
-        list-style: none;
-        font-size: .8em;
-        border-right: 1px solid rgba(255, 255, 255, 0.4);
-        height: 100%;
-        padding: 3px 10px 3px 10px;
-        float: left;
-    }
-    
-    #content {
-        margin: 0;
-        padding: 50px 0 0 15px;
-        width: 100%;
-        color: #000;
-    }
-    
-    h1 {
-        font-size: 2.5em;
-    }
-    
-    .headlineimg {
-        position: relative;
-        right: 215px;
-        float: right;
-    }
-    
-    .newsitem {
-        width: 307.969px;
-        font-size: 1.1em;
-        float: left;
-    }
-    
-    #clock {
-        float: left;
-        margin: 0;
-        padding-top: 10px;
-        padding-right: 5px;
-    }
-    
-    p {
-        margin: 0;
-    }
-    
-    #movedown {
-        float: left;
-        width: 200px;
-        margin: 0;
-        padding: 15px 0 0 0;
-        height: 10px;
-    }
-    
-    #date {
-        padding-top: 0px;
-        padding-right: 10px;
-        float: left;
-        color: #5A5A5A;
-        border-right: 1px solid #DCDCDC;
-    }
-    
-    #europe {
-        color: #5A5A5A;
-        margin: 0;
-        padding: 0 0 0 10px;
-    }
-    
-    #headlinelinks {
-        font-size: 15px;
-        line-height: 1.7;
-        padding-top: 10px;
-        margin: 0;
-    }
-    
-    #headlinelinks ul {
-        padding: 0;
-        margin: 0;
-    }
-    
-    #headlinelinks li {
-        list-style: none;
-        padding: none;
-        margin: 0;
-    }
-    
-    #headlinelinks img {
-        float: left;
-        padding: 5px 10px 0 0;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #000;
-    }
-    
-    a:hover {
-        color: #117AC5;
-    }
-    
-    a:visited {
-        color: #117AC5;
-    }
-    
-    .click {}
-    </style>
-</head>
+						<ul>
+							<li><a href="http://www.bbc.com/news/world-us-canada-32358775"><img src="images/watchList1.png" alt=""><h3><span id="watchListText">2016 Republican message mash-up</span></h3></a> <span class="dateWatch">17th April 2015</span></li>
 
-<body>
-    <div id="container">
-        <div id="topbar">
-            <div class="fixedwidth">
-                <div id="logodiv">
-                    <img id="bbclogo" src="images/bbclogo.png" alt="">
-                </div>
-                <div id="signInDiv">
-                    <img id="signIn" src="images/signInSymbol.png" alt="">
-                </div>
-                <div id="nav">
-                    <ul>
-                        <li>News</li>
-                        <li>Sport</li>
-                        <li>Weather</li>
-                        <li>Shop</li>
-                        <li>Earth</li>
-                        <li>Travel</li>
-                        <li>More</li>
-                    </ul>
-                </div>
-                <div id="searchDiv">
-                    <input type="text" name="" value="" placeholder="Search">
-                </div>
-            </div>
-        </div>
-        <div class="break"></div>
-        <!-- end topbar -->
-        <div id="newsDiv">
-            <div class="fixedwidth">
-                <p>NEWS</p>
-                <div id="reset">
-                    <div id="otherLinks">
-                        <ul>
-                            <li>Home</li>
-                            <li>Video</li>
-                            <li>World</li>
-                            <li>US &amp; Canada</li>
-                            <li>UK</li>
-                            <li>Business</li>
-                            <li>Tech</li>
-                            <li>Science</li>
-                            <li>Magazine</li>
-                            <li>Entertainment &amp; Arts</li>
-                            <li style="border-right: none;">More</li>
-                        </ul>
-                    </div>
-                    <!-- end otherLinks -->
-                </div>
-                <!--end reset -->
-            </div>
-            <!-- end fixedwidth -->
-        </div>
-        <!-- end newsDiv -->
-        <div class="break"></div>
-        <div id="content">
-            <div class="fixedwidth">
-                <h1>Migrant deaths renew pressure on EU</h1>
-                <img class="headlineimg" src="images/headlineimg.jpg" alt="Guys on a boat">
-                <div class="newsitem">
-                    <p>Italy's PM leads calls for more EU action on migrants after the latest boat capsize in the Mediterranean leaves hundreds feared dead.</p>
-                    <img id="clock" src="images/clock.png" alt="">
-                    <div id="movedown">
-                        <p><span id="date">2 hours ago</span></p>
-                        <p><span id="europe">Europe</span></p>
-                    </div>
-                    <!-- end movedown -->
-                    <div class="break"></div>
-                    <div id="headlinelinks">
-                        <ul>
-                            <li><a href="http://www.bbc.com/news/uk-32382962">Cameron: Deaths a 'dark day'</a></li>
-                            <li><a href="http://www.bbc.com/news/world-middle-east-32386370">Why is Libya the focus?</a></li>
-                            <a href="http://www.bbc.com/news/world-32384519">
-                                <li><img src="images/youtubeArrow.png" alt=""></li>Med migration in numbers</a>
-                            <li><a href="http://www.bbc.com/news/world-europe-24583286">Why EU is struggling</a></li>
-                        </ul>
-                    </div>
-                    <!-- end headlinelinks -->
-                </div>
-                <!-- end newsitem -->
-            </div>
-            <!-- end fixedwidth -->
-        </div>
-        <!-- end content -->
-    </div>
-    <!-- end container -->
-</body>
+							<li><a href="http://www.bbc.com/news/world-europe-32374005"><img src="images/watchList2.png" alt=""><h3><span id="watchListText">'Migrants cross vast stretch of sea'</span></h3></a> <span class="dateWatch">19th April 2015</span></li>
 
+							<li><a href="http://www.bbc.com/news/world-europe-32374027"><img src="images/watchList3.png" alt=""><h3><span id="watchListText">Italian PM condemns 'new slave trade'</span></h3></a> <span class="dateWatch">17th April 2015</span></li>
+
+							<li><a href="http://www.bbc.com/news/world-us-canada-32360905"><img src="images/watchList4.png" alt=""><h3><span id="watchListText">Footage of US train track rescue</span></h3></a> <span class="dateWatch">17th April 2015</span></li>
+						</ul>
+					</div>
+					<!-- end watchlist -->
+				</div>
+				<!-- end fixedwidth -->
+			</div>
+			<!-- end content -->
+		</div>
+		<!-- end container -->
+	</body>
 </html>
