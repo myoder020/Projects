@@ -1,0 +1,14 @@
+127.0.0.1 - - [06/May/2015:00:07:21 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:07:21 -0500] "GET /MVCForm/index.jsp HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:07:27 -0500] "GET /MVCForm/Controller?action=login HTTP/1.1" 200 571
+127.0.0.1 - - [06/May/2015:00:09:31 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:31 -0500] "GET /MVCForm/login.jsp HTTP/1.1" 200 598
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:37 -0500] "GET /MVCForm/index.jsp HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:39 -0500] "GET /MVCForm/Controller?action=login HTTP/1.1" 200 586
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:47 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 620
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:55 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 642
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:09:58 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 300
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:10:48 -0500] "GET /MVCForm/index.jsp HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:10:49 -0500] "GET /MVCForm/Controller?action=login HTTP/1.1" 200 586
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:11:02 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [06/May/2015:00:11:06 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 305

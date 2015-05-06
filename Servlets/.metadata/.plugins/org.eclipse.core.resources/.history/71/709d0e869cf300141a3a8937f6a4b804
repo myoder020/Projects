@@ -1,0 +1,6 @@
+package beans;
+
+public class User {
+	private String user;
+	private String password;
+}
