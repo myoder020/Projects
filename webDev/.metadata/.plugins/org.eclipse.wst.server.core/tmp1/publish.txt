@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Sun May 24 15:13:31 CDT 2015
+org.eclipse.jst.jee.server\:ControllerTest=C\:\\web\\apache-tomcat-8.0.22\\wtpwebapps\\ControllerTest
+org.eclipse.jst.jee.server\:Tomcat8FormBasedJAAS=C\:\\web\\apache-tomcat-8.0.22\\wtpwebapps\\Tomcat8FormBasedJAAS
+org.eclipse.jst.jee.server\:StrutsProject=C\:\\web\\apache-tomcat-8.0.22\\wtpwebapps\\StrutsProject

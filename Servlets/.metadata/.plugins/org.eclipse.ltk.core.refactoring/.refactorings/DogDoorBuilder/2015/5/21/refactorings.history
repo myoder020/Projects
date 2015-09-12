@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;door.Dog&apos; to &apos;DogDoorSimulator&apos;&#x0D;&#x0A;- Original project: &apos;DogDoorBuilder&apos;&#x0D;&#x0A;- Original element: &apos;door.Dog&apos;&#x0D;&#x0A;- Renamed element: &apos;door.DogDoorSimulator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dog&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;door{Dog.java[Dog" matchStrategy="1" name="DogDoorSimulator" qualified="false" references="true" similarDeclarations="false" stamp="1432000031515" textual="false" version="1.0"/>
+</session>

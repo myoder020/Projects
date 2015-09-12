@@ -1,0 +1,20 @@
+package count;
+
+public class VowelCounter {
+	
+	private String text;
+	private int[] vowels;
+	
+	public VowelCounter(String text) {
+		this.text = text;
+		initializeArray();
+	}
+	
+	private void initializeArray(){
+		vowels = new int[5];
+	}
+	
+	private void countVowels() {
+		
+	}
+}

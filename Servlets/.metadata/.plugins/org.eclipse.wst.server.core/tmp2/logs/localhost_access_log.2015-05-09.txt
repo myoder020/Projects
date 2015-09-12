@@ -1,0 +1,12 @@
+127.0.0.1 - - [09/May/2015:07:59:58 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [09/May/2015:07:59:59 -0500] "GET /GroceryShop/index.jsp HTTP/1.1" 200 2179
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:00 -0500] "GET /GroceryShop/styles.css HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:00 -0500] "GET /GroceryShop/images/fox.jpg HTTP/1.1" 200 9408616
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:45 -0500] "GET /GroceryShop/index.jsp HTTP/1.1" 200 2183
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:45 -0500] "GET /GroceryShop/css/styles.css HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:45 -0500] "GET /GroceryShop/css/images/fox.jpg HTTP/1.1" 404 1011
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:53 -0500] "GET /GroceryShop/index.jsp HTTP/1.1" 200 2183
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:00:53 -0500] "GET /GroceryShop/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:01:15 -0500] "GET /GroceryShop/index.jsp HTTP/1.1" 200 2183
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:01:15 -0500] "GET /GroceryShop/css/styles.css HTTP/1.1" 200 338
+0:0:0:0:0:0:0:1 - - [09/May/2015:08:01:15 -0500] "GET /GroceryShop/images/fox.jpg HTTP/1.1" 304 -

@@ -1,0 +1,27 @@
+package door;
+
+public class DogDoorSimulator {
+	
+	public static void main(String[] args) {
+		DogDoor door = new DogDoor();
+		Remote remote = new Remote(door);
+		BarkRecognizer recog = new BarkRecognizer(door);
+		
+		System.out.println("Fido barks to go outside...");
+		recog.recognize("bark");
+		System.out.println("\nFido has gone outside...");
+		door.setCloseTime(20000);
+		try {
+			Thread.currentThread().sleep(10000);
+		} catch (InterruptedException e) {
+			
+		}
+		
+		System.out.println("\nFido's all done...");
+		System.out.println("Fido barks to go inside...");
+		recog.recognize("bark");
+		System.out.println("\nFido's back inside...");
+		
+	}
+	
+}

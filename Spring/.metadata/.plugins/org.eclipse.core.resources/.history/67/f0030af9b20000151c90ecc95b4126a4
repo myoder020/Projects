@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+	<bean name="sequenceGenerator" class="com.matt.generator.SequenceGenerator">
+		<property name="prefix">
+			<value>30</value>
+		</property>
+
+		<property name="suffix">
+			<value>A</value>
+		</property>
+
+		<property name="initial">
+			<value>100000</value>
+		</property>
+	</bean>
+	
+	<bean name="seqGen" class="com.matt.generator.SequenceGenerator">
+		<p:prefix value="100"/>
+	
+	</bean>
+</beans>

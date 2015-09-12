@@ -1,0 +1,5 @@
+package palin;
+
+public class PalimdromeChecker {
+
+}

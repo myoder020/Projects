@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+}
+
+#cart {
+    float:right;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #777;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 61px;
+    background-image: url("images/fox.jpg");
+    background-size: cover;
+    
+}

@@ -1,0 +1,12 @@
+package door;
+
+public class BarkRecognizer {
+	
+	public void recognize(String bark, DogDoor door) {
+		if (bark == "bark" && !door.isOpen())
+			door.open();
+		else if(bark == "bark" && door.isOpen())
+			door.close();
+	}
+	
+}

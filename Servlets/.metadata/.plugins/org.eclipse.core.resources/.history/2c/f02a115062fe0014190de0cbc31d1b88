@@ -1,0 +1,21 @@
+package board;
+
+public class Board {
+	
+	private int width, height;
+	private Tile[][] board;
+	
+	public Board(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+	
+	public void createBoard() {
+		board = new Tile[width][height];
+	}
+	
+	public Tile getTile(int x, int y) {
+		return board[x][y];
+	}
+
+}

@@ -1,0 +1,59 @@
+package palin;
+
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+public class PalimdromeChecker {
+	
+	private String text;
+	private String firstHalf;
+	private String secondHalf;
+	private String secondHalfReversed;
+	private int lot;
+	private Stack<Character> reverse;
+	private StringTokenizer st;
+	private String temp;
+	
+	public PalimdromeChecker(String text) {
+		this.text = text.toLowerCase();
+		reverse = new Stack();
+		firstHalf = "";
+		secondHalf = "";
+		
+	}
+	
+	public void check() {
+		secondHalfReversed = "";
+		temp = "";
+		st = new StringTokenizer(text);
+		
+		while(st.hasMoreTokens())
+			temp +=st.nextToken();
+		
+		System.out.println(temp);
+		lot = temp.length();
+		if(lot%2 != 0)
+			firstHalf = temp.substring(0, (lot/2)+1);
+		else
+			firstHalf = temp.substring(0, (lot/2));
+		secondHalf = temp.substring(lot/2, lot);
+		
+		for(Character c : secondHalf.toCharArray()) {
+			reverse.push(c);
+		}
+		
+		while(!reverse.isEmpty())
+			secondHalfReversed += reverse.pop();
+			
+		if(firstHalf.equals(secondHalfReversed)) {
+			System.out.println("yup it's a palindrome");
+		} else {
+			System.out.println("Nope you suck");
+		}
+	}
+	
+	public void setText(String text) {
+		this.text = text;
+	}
+	
+}

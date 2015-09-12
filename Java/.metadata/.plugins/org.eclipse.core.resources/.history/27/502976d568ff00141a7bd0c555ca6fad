@@ -1,0 +1,8 @@
+package store;
+
+public class Items {
+	
+	private String name;
+	private double price;
+	
+}

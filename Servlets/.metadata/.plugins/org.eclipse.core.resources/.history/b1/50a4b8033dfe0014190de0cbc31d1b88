@@ -1,0 +1,23 @@
+package door;
+
+public class Bark {
+	
+	private String sound;
+	
+	public Bark(String sound) {
+		this.sound = sound;
+	}
+	
+	public String getSound() {
+		return sound;
+	}
+	
+	public boolean equals(Object bark) {
+		Bark other = (Bark) bark;
+		if(!sound.equals(other.getSound()))
+			return false;
+		
+		return true;
+	}
+	
+}

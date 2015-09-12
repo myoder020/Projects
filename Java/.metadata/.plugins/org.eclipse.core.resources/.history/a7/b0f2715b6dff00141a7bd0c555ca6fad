@@ -1,0 +1,23 @@
+package test;
+
+import static java.lang.Math.random;
+import customer.Customer;
+import store.*;
+
+public class StoreSimTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Clerk clerk = new Clerk();
+		Store store = new Store(clerk);
+		Customer cust = new Customer();
+		int grab = 0;
+		while(grab < 11) {
+			grab = (int) Math.random() * 12;
+			System.out.println(grab);
+			cust.getCart().addItem(store.getInventory().get(grab));
+		}
+
+	}
+
+}

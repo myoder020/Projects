@@ -1,0 +1,21 @@
+package store;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Store {
+	
+	private Clerk clerk;
+	private List<Items> inventory;
+	
+	public Store() {
+		clerk = new Clerk();
+		inventory = new ArrayList<Items>();
+		initialize();
+	}
+	
+	private void initialize() {
+		
+	}
+	
+}

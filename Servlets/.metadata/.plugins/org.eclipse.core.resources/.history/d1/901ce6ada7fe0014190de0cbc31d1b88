@@ -1,0 +1,19 @@
+package palin;
+
+public class PalimdromeChecker {
+	
+	private String text;
+	private int lot;
+	
+	public PalimdromeChecker(String text) {
+		this.text = text.toLowerCase();
+	}
+	
+	public void check() {
+		lot = text.length();
+		if(text.substring(0, lot/2).equals(text.substring(lot/2, lot))) {
+			System.out.println("yup they're it's a palindrome");
+		}
+	}
+	
+}

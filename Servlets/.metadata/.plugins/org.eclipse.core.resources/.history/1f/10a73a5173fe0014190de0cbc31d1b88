@@ -1,0 +1,18 @@
+package node;
+
+public class SingleLinkTester {
+
+	public static void main(String[] args) {
+		SingleLink node = new SingleLink("woot");
+		
+		SingleLink newNode = new SingleLink("new node", node);
+		
+		SingleLink curr = newNode;
+		while(curr.hasNext()) {
+			System.out.println(curr.getText());
+			curr = curr.getNext();
+		}
+
+	}
+
+}

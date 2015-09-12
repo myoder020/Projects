@@ -1,0 +1,12 @@
+package palin;
+
+public class PalindromeCheckerTester {
+
+	public static void main(String[] args) {
+		
+		PalimdromeChecker pc = new PalimdromeChecker("llaaaall");
+		pc.check();
+
+	}
+
+}

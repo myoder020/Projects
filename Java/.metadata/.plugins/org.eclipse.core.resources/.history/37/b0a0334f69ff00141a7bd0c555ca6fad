@@ -1,0 +1,29 @@
+package customer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import store.Items;
+
+
+public class Cart<E> {
+	
+	List<E> items;
+	
+	public Cart() {
+		items = new ArrayList<E>();
+	}
+	
+	public void addItem(Items item) {
+		items.add(item);
+	}
+	
+	public int getNumberItems() {
+		return items.size();
+	}
+	
+	public List<E> getItems(){
+		return items;
+	}
+	
+}

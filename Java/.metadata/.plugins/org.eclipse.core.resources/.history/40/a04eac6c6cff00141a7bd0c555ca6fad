@@ -1,0 +1,18 @@
+package store;
+
+import java.util.ArrayList;
+
+public class Clerk<E> {
+	
+	private double sum;
+	
+	public void ringUpItems(ArrayList<Items> items) {
+		for(Items item : items) {
+			sum += item.getPrice();
+			System.out.println("The " + item.getName() + "is $" + item.getPrice());
+		}
+		
+		System.out.println("Your total is $" + sum);
+	}
+	
+}

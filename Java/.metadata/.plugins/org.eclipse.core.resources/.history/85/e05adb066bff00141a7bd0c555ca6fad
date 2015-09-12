@@ -1,0 +1,16 @@
+package store;
+
+public class Store {
+	
+	private Clerk clerk;
+	
+	public Store() {
+		clerk = new Clerk();
+		initialize();
+	}
+	
+	private void initialize() {
+		
+	}
+	
+}

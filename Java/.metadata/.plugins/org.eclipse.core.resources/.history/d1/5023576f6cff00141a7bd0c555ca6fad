@@ -1,0 +1,19 @@
+package test;
+
+import store.*;
+
+public class StoreSimTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Clerk clerk = new Clerk();
+		Store store = new Store(clerk);
+		Customer
+		int grab = 0;
+		while(grab < 11) {
+			
+		}
+
+	}
+
+}

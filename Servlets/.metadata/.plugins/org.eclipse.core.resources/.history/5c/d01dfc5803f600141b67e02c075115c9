@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+p {
+	
+	 font-size: 20px;
+	
+}
+
+.container {
+	background-image: url("images/snowMountains.jpg");	
+}

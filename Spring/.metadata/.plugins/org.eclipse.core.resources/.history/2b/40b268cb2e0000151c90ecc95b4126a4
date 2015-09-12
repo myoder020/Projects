@@ -1,0 +1,11 @@
+package com.matt.generator;
+
+import org.springframework.context.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

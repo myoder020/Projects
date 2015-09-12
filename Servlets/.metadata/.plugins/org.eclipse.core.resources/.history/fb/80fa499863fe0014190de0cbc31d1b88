@@ -1,0 +1,20 @@
+package board;
+
+import unit.Unit;
+
+public class Tile {
+	private Unit units;
+	
+	public Tile() {
+		
+	}
+	
+	public void setUnits(Unit units) {
+		this.units = units;
+	}
+	
+	public Unit getUnits() {
+		return this.units;
+	}
+	
+}

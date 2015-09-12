@@ -1,0 +1,11 @@
+package node;
+
+public class SingleLinkTester {
+
+	public static void main(String[] args) {
+		SingleLink node = new SingleLink("woot");
+		System.out.println(node.getText());
+
+	}
+
+}

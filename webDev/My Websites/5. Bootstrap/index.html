@@ -28,6 +28,38 @@
             height: 400px;
             width: 100%;
         }
+        
+        #topRow {
+            margin-top: 100px;
+            text-align: center;
+            color: lightgray;
+        }
+        
+        #topRow h1 {
+            font-size: 300%;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        .marginTop {
+            margin-top: 30px;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        #footer {
+            background-color: lightblue;
+            padding-top: 70px;
+            width: 100%;
+        }
+        
+        .storeImg {
+            width: 200px;
+        }
     </style>
 
 
@@ -66,20 +98,84 @@
             </div>
         </div>
     </div>
-    
-    <div class="container" id="topContainer">
-        
+
+    <div class="container contentContainer" id="topContainer">
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3" id="topRow">
+                <h1 class="marginTop">My Awesome App</h1>
+
+                <p class="lead">This is why you should download this fantastic app</p>
+
+                <p>Some more information about the app, You can go into a little more detail about the app if you want to.</p>
+
+                <p class="bold marginTop">Interested? Join our mailing list.</p>
+
+                <form action="" class="marginTop">
+                    <div class="input-group">
+                        <span class="input-group-addon">@</span>
+                        <input type="email" name="" id="" class="form-control" placeholder="Your Email">
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-success marginTop">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container contentContainer">
+
+        <div class="row center">
+
+            <h1>Why This App is soooooo Awesome</h1>
+            <p class="lead">Summary of the app's awesomeness</p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2><span class="glyphicon glyphicon-hand-right"></span> Header</h2>
+                <p>Brief description of some of the features.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+            </div>
+            <div class="col-md-4">
+                <h2><span class="glyphicon glyphicon-hand-right"></span> Header</h2>
+                <p>Brief description of some of the features.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+
+            </div>
+            <div class="col-md-4">
+                <h2><span class="glyphicon glyphicon-hand-right"></span> Header</h2>
+                <p>Brief description of some of the features.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container contentContainer" id="footer">
+
+        <div class="row center">
+
+            <h1 class="title">Download the App!</h1>
+            <p class="lead">Really, why should I download this:</p>
+            <p><img src="images/appstore.png" alt="" class="storeImg">
+            </p>
+        </div>
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    
+
     <script>
-        
-        $("#topContainer").css({height:$(window).height()})
-    
+        $(".contentContainer").css("min-height", $(window).height());
     </script>
 </body>
 

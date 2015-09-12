@@ -1,0 +1,46 @@
+package count;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class VowelCounter {
+	
+	private String text;
+	private Map<Character,Integer> vowels;
+	
+	public VowelCounter(String text) {
+		this.text = text;
+		vowels = new HashMap();
+		initializeMap();
+	}
+	
+	private void initializeMap(){
+		vowels.put('o', 0);
+		vowels.put('i', 0);
+		vowels.put('e', 0);
+		vowels.put('u', 0);
+		vowels.put('a', 0);
+	}
+	
+	public void countVowels() {
+		int temp;
+		for(int i = 0; i < text.length(); i++) {
+			if(vowels.containsKey(text.charAt(i))) {
+				temp = vowels.get(text.charAt(i));
+				vowels.put(text.charAt(i), ++temp);
+			}
+		}
+	}
+	
+	public String toString() {
+		String result = "Your sentence contained \n" +
+				"o: " + vowels.get('o') + "\n" +
+				"i: " + vowels.get('i') + "\n" +
+				"e: " + vowels.get('e') + "\n" +
+				"u: " + vowels.get('u') + "\n" +
+				"a: " + vowels.get('a') + "\n"; 
+		
+		return result;
+	}
+}

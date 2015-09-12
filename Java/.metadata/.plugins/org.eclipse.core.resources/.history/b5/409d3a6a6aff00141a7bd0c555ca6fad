@@ -1,0 +1,11 @@
+package store;
+
+public class Store {
+	
+	private Clerk clerk;
+	
+	public Store() {
+		clerk = new Clerk();
+	}
+	
+}

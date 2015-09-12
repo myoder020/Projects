@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+html, body {
+	height: 100%;
+}
+
+
+p {
+	
+	 font-size: 20px;
+	
+}
+
+#content {
+	background-image: url("images/snowMountains.jpg");
+	background-repeat: cover;
+}
+
+.container {
+	height: 100%;
+}

@@ -1,0 +1,12 @@
+package customer;
+
+public class Customer {
+	
+	private Cart cart;
+	
+	public Customer() {
+		this.cart = new Cart();
+	}
+	
+	
+}

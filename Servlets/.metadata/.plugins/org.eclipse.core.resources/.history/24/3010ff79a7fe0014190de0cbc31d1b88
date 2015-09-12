@@ -1,0 +1,17 @@
+package palin;
+
+public class PalimdromeChecker {
+	
+	private String text;
+	
+	public PalimdromeChecker(String text) {
+		this.text = text.toLowerCase();
+	}
+	
+	public void check() {
+		if(text.substring(0, (text.length()-1)/2).equals(text.substring((text.length()-1)/2, (text.length()-1)))) {
+			System.out.println("yup they're it's a palindrome");
+		}
+	}
+	
+}

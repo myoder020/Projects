@@ -1,0 +1,11 @@
+package palin;
+
+public class PalimdromeChecker {
+	
+	private String text;
+	
+	public PalimdromeChecker(String text) {
+		this.text = text;
+	}
+	
+}

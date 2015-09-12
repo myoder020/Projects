@@ -1,0 +1,20 @@
+package node;
+
+public class SingleLink {
+	
+	private SingleLink next;
+	private String text;
+	
+	public SingleLink(String text) {
+		this(text, null);
+	}
+	
+	public SingleLink(String text, SingleLink node) {
+		this.text = text;
+		next = node;
+	}
+	
+	public String getText() {
+		return text;
+	}
+}

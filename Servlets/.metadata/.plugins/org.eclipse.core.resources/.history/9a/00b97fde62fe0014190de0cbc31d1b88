@@ -1,0 +1,13 @@
+package board;
+
+import unit.Unit;
+
+public class Tile {
+	private Unit units;
+	
+	public Tile() {
+		units = new Unit();
+	}
+	
+	
+}

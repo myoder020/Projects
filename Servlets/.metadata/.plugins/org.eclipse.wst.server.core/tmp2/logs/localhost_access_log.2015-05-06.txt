@@ -12,3 +12,8 @@
 0:0:0:0:0:0:0:1 - - [06/May/2015:00:10:49 -0500] "GET /MVCForm/Controller?action=login HTTP/1.1" 200 586
 0:0:0:0:0:0:0:1 - - [06/May/2015:00:11:02 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 647
 0:0:0:0:0:0:0:1 - - [06/May/2015:00:11:06 -0500] "POST /MVCForm/Controller HTTP/1.1" 200 305
+127.0.0.1 - - [06/May/2015:16:26:40 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [06/May/2015:16:26:41 -0500] "GET /Session_Tracking/session.jsp HTTP/1.1" 200 259
+0:0:0:0:0:0:0:1 - - [06/May/2015:16:27:30 -0500] "GET /Session_Tracking/session.jsp HTTP/1.1" 500 2540
+127.0.0.1 - - [06/May/2015:16:37:23 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [06/May/2015:16:37:24 -0500] "GET /Session_Tracking/Session HTTP/1.1" 200 285

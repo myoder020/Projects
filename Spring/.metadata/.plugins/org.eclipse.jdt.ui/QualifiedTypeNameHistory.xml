@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="generator.SequenceGenerator"/>
+<fullyQualifiedTypeName name="com.matt.generator.SequenceGenerator"/>
+<fullyQualifiedTypeName name="product.Product"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="gen.PrefixGenerator"/>
+</qualifiedTypeNameHistroy>

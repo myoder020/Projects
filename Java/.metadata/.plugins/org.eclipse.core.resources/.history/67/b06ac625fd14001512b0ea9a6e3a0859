@@ -1,0 +1,14 @@
+package test;
+
+public class FinalFieldsTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FinalFields sb = new FinalFields();
+		System.out.println(sb.getSb());
+		sb.run();
+		System.out.println(sb.getSb());
+
+	}
+
+}
