@@ -1,7 +1,6 @@
 <?php
 session_start();
-$y=$_SESSION['dirPath'];
-$dirPath=$_GET['dirPath'];
+$dir=$_SESSION['2017'];
 
-echo $dirPath;
+echo $dir;
 ?>
