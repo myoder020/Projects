@@ -1,4 +1,6 @@
 <?php 
+    session_start();
+
     $dir=dir('M:\Pictures');
     $tar = array();
     $aar = checkContents($dir, $tar);
@@ -55,6 +57,11 @@
         return $dar;
     }
 
+    function displayPictures($p) {
+        $SESSION['dirPath'] = $p;
+        echo $p;
+    }
+
     
     ?>
 <html>
@@ -71,12 +78,17 @@
         </p>
         
         <div class="Photos">
+            <script type="text/javascript">
+            </script>
+            
             <?php
             foreach($aar as $a) {
-                echo "<a href=/pictures/".$a['dirName'].">".$a['dirName']."</a>";
+                echo "<a id=".$a['dirName']." href=displayPictures.php?dirPath=/pictures/".$a['dirName'].">".$a['dirName']."</a>";
                 echo nl2br("\r\n");
             }
             ?>
+            
+            
         <!-- <img src="/pictures/<?php echo $aar[array_search('2017',array_column($aar,'dirName'))]['dirName']?>" width="900" height="700"> -->
         </div>
         
