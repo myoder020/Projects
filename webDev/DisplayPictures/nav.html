@@ -1,5 +1,41 @@
 <html>
-<a href="index.php">Home</a>
 
+    <style>
+    #home {
+        font-weight: bold;
+    }
 
+    .pics {
+        display:inline-block;
+        height: 50px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    </style>
+    <header>
+        <a id="home" href="index.php">Home</a>
+    </header>
+<br>
 </html>

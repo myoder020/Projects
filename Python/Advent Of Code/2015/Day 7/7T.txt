@@ -1,0 +1,19 @@
+43690 -> d
+21845 -> c
+c AND d -> b
+NOT b -> a
+af AND ah -> ai
+NOT lk -> ll
+hz RSHIFT 1 -> is
+NOT go -> gp
+du OR dt -> dv
+x RSHIFT 5 -> aa
+at OR az -> ba
+eo LSHIFT 15 -> es
+ci OR ct -> cu
+b RSHIFT 5 -> f
+fm OR fn -> fo
+NOT ag -> ah
+v OR w -> x
+g AND i -> j
+an LSHIFT 15 -> ar

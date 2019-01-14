@@ -1,5 +1,7 @@
 <?php 
-    $dir=dir('M:\Pictures');
+    $f = is_dir('./pictures');
+    
+    $dir=dir('./pictures');
     $aar = checkContents($dir);
     $_SESSION['dirs'] = $aar;
     $dir->close();
@@ -9,7 +11,6 @@
         $tempA = array();
         $finalArray = array();
 
-        echo nl2br("\r\n");
         while(($fn = $d->read()) !== false) {
             if($fn === "." || $fn === ".." || $fn[0] === ".")
                 continue;
@@ -21,7 +22,7 @@
 
         }
 
-        $pattern = '/\\\\/';
+        $pattern = '/\//';
 
         foreach($tempA as $dir) {
             $cnt = count($dir);
@@ -36,21 +37,21 @@
             array_push($finalArray, $dir);          
         }
 
-        print_r($finalArray);
         return $finalArray;
     }
 
     function getFiles($path) {
+        $nPath = str_replace('\\', '/', $path);
         $far = array();
         $temp = array();
-        $files = scandir($path);
+        $files = scandir($nPath);
         $cnt = 0;
 
         foreach($files as $file) {
 
-            if(is_dir($path.DIRECTORY_SEPARATOR.$file) && $file !== "." && $file !== "..") {
+            if(is_dir($nPath.'/'.$file) && $file !== "." && $file !== "..") {
                 $cnt++;
-                $far = makeDirArray($file, $path);  
+                $far = makeDirArray($file, $nPath);  
                 array_push($temp, $far);             
             }         
 
@@ -67,10 +68,11 @@
         $final = array();
         $dar = array(
             ('dirName') => $f,
-            ('dirPath') => $p.DIRECTORY_SEPARATOR.$f
+            ('dirPath') => $p.'/'.$f
         );
+
         $final = $dar;
-        $sub = getFiles($p.DIRECTORY_SEPARATOR.$f);
+        $sub = getFiles($p.'/'.$f);
         if($sub !== null) {
             foreach($sub as $sb) {
                 array_push($final, $sb);
