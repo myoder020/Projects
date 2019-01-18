@@ -32,16 +32,5 @@ for line in fileContents:
     print(line, nline)
     
 
-
-total = 0
-
-for k,v in res.items():
-    # print(k, v)
-    total += v
-
-print(total)
-
 print(totalStringLiterals-totalHexChars)
 print(totalNStringLiterals-totalStringLiterals)
-
-# print(res.items())
